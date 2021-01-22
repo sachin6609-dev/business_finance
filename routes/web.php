@@ -31,3 +31,7 @@ Route::get('/home', 'HomeController@index')->middleware('verified');
 Route::resource('customers', 'CustomerController');
 
 Route::resource('projects', 'ProjectController');
+
+Route::resource('employees', 'EmployeeController');
+
+Route::resource('tasks', 'TasksController');
